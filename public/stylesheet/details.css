@@ -1,0 +1,25 @@
+.card-img-top{
+	width:100%;
+	height:400px
+}
+h1{
+	font-family: 'Solway', serif;
+}
+h3{
+	font-family: 'Girassol', cursive;
+}
+p{
+	font-family: 'Rokkitt', cursive;
+	font-size:22px
+}
+.card{
+	width:50%;
+	margin:auto;
+	margin-bottom:10px;
+}
+.header{
+	letter-spacing:1px;
+	font-size:42px;
+	font-weight:bold;
+	font-family: 'Solway', serif;
+}

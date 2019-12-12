@@ -1,0 +1,28 @@
+<%- include("partials/header") %>
+
+<div class="card" style="width: 80%; margin-top:10px">
+  <div class="card-body">
+    <h1 class="card-title text-center header">Top movies you must watch!!!</h1>
+    <a href="/movie/new" class="card-link text-center">Add New Movie</a>
+  </div>
+</div>
+
+<div class = "container">
+	<% movies.forEach(function(movie){ %>
+	<div class = "row">
+		<div class="card">
+  <img class="card-img-top mx-auto d-block" src="<%= movie.image %>" alt="Card image cap">
+  <div class="card-body">
+    <h3 class="card-title text-center"><%= movie.name %></h3>
+    <p class="card-text"><%= movie.summary %></p>
+  </div>
+</div>
+	</div>
+<% }) %>
+</div>
+
+
+
+
+
+
