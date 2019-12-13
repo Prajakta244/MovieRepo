@@ -11,12 +11,12 @@
 	<% movies.forEach(function(movie){ %>
 	<div class = "row">
 		<div class="card">
-  <img class="card-img-top mx-auto d-block" src="<%= movie.image %>" alt="Card image cap">
-  <div class="card-body">
-    <h3 class="card-title text-center"><%= movie.name %></h3>
-    <p class="card-text"><%= movie.summary %></p>
-  </div>
-</div>
+			<img class="card-img-top mx-auto d-block" src="<%= movie.image %>" alt="Card image cap">
+			<div class="card-body">
+				<h3 class="card-title text-center"><%= movie.name %></h3>
+				<p class="card-text"><%= movie.summary %></p>
+	  		</div>
+		</div>
 	</div>
 <% }) %>
 </div>
