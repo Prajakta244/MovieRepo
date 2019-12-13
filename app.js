@@ -23,7 +23,7 @@ var Movie = mongoose.model("Movie",movieSchema)
 app.set("view engine", "ejs")
 
 app.get("/",function(req,res){
-	res.render("landing")
+	res.render("movie")
 })
 
 //Fetching all movies from db
